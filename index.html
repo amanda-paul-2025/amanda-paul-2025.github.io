@@ -1,0 +1,210 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- Page setup -->
+    <meta charset="utf-8">
+    <title>Amanda and Paul Wedding</title>
+    <!-- <meta name="description" content="A brief description of your site for search engines"> -->
+    <meta name="author" content="Paul Nicknish and Amanda Jackson">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <link rel="icon" type="image/png" href="favicon.png">
+
+  
+    <!-- Stylesheets -->
+    <!-- Reset default styles and add support for google fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+
+    <!-- Custom styles -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+
+    <!-- Want to add Bootstrap? -->
+    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
+    
+  </head>
+  
+  <body>
+
+    <header id="header">
+      <img src="logo2.png"
+        width="300" 
+        >
+      <h1>Amanda and Paul's Wedding</h1>
+      
+      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
+      <ul class="main-menu">
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Details">Wedding Details</a></li>
+        <li><a href="#Lodging">Lodging</a></li>
+        <li><a href="#Explore">While in the area</a></li>
+        <li><a href="#RSVP">RSVP</a></li>
+        <li><a href="#FAQs">FAQs</a></li>
+      </ul>                 
+    </header>
+   
+    <div id="container">
+      <div class="inner">
+        <div id="content"> 
+          
+          <div id="Home" class="content-region hide">
+            <h2>Home</h2>
+            <p>
+              Welcome! This is the website for the wedding of Amanda Jackson and Paul Nicknish. We are getting married July 26, 2025 in Gilroy, CA. We would love for you to join us in celebrating!
+            </p>
+          </div>
+          
+          <div id="Details" class="content-region hide">
+            <h2>Wedding Details</h2>
+            <p>
+              The wedding will be Saturday July 26, 2025 at Kirigin Cellars, in Gilroy, California.
+            </p>
+
+            <h3>Schedule of events</h3>
+            <p>The ceremony and reception will both be Saturday evening at Kirigin Cellars. Please check back soon for a more detailed schedule.
+            </p>
+
+            <h3>Atire</h3>
+            <p>We are asking guests to please wear semi-formal attire. However, please don't feel obligated to wear something that will be uncomfortably
+              hot.
+            </p>
+            
+          </div>
+
+          <div id="Lodging" class="content-region hide">
+            <h2>Lodging</h2>
+            <p>
+              For our non-local guests, we are reserving a room block at the following hotel.
+            </p>
+          </div>
+
+          <div id="Explore" class="content-region hide">
+            <h2>Things to do nearby</h2>
+            <p>
+              The South Bay has a lot to offer, and here is just a small smapling of things to check out while you are in town.
+            </p>
+
+            <h3>Hiking/Outdoor Activities</h3>
+                <h4><a href="https://www.parks.ca.gov/?page_id=561" target="_blank" rel="noopener noreferrer">Henry Coe State Park</a></h4>
+                  <p>The largest state park in Northern California, Henry Coe features miles of rugged trails in the Diablo Mountain Range. Summer temperatures
+                  here can be hot, so be prepared if visiting during the day.</p>
+                <h4><a href="https://parks.santaclaracounty.gov/locations/santa-teresa-county-park" target="_blank" rel="noopener noreferrer">Santa Teresa County Park</a></h4>
+                  <p>Amanda's backyard park features lots of great biking and hiking trails.</p>
+                <h4><a href="https://parks.santaclaracounty.gov/locations/almaden-quicksilver-county-park" target="_blank" rel="noopener noreferrer">Almaden Quicksilver County Park</a></h4>
+                  <p>A large park with lots of hiking and biking trails, along with a long and interesting history of mercury mining. At their peak, the 
+                  mines in this region were the second most productive in the world.</p>
+
+            <h3>Local Attractions</h3>
+                <h4><a href="https://www.gilroygardens.org/" target="_blank" rel="noopener noreferrer">Gilroy Gardens</a></h4>
+                  <p>A family-friendly amusement park featuring fun rides and extensive botanical gardens.</p>
+                <h4><a href="https://garlicworld.com/" target="_blank" rel="noopener noreferrer">Garlic World</a></h4>
+                  <p>Gilroy, CA is the garlic capital of the world, with nearly 100 million pounds of garlic flowing through the 
+                    city each year. Garlic World features all-things-garlic, including garlic ice cream!</p>
+                <h4><a href="https://andysorchard.com/" target="_blank" rel="noopener noreferrer">Andy's Orchard</a></h4>
+                  <p>The best dried fruit around, period. Paul and Kathy Hansell (Amanda's maternal grandmother) are both big fans
+                  of this place.</p>
+
+            <h3>Places to Eat</h3>
+                <h4>Aqui</h4>
+
+
+          </div>
+
+          <div id="RSVP" class="content-region hide">
+            <h2>RSVP</h2>
+            <p>
+              Please check back soon for RSVP information!
+            </p>
+          </div>
+
+          <div id="FAQs" class="content-region hide">
+            <h2>Frequently Asked Questions</h2>
+
+            <!-- Start of the Accordion -->
+                  <div class="faq-item">
+                      <button class="faq-question">
+                          How do I get to Kirigin Cellars?
+                          <span class="arrow">&#9660;</span>
+                      </button>
+                      <div class="faq-answer">
+                          <p>The address is <a href="https://maps.app.goo.gl/9sRgcLz61zN6D3FY9" target="_blank" rel="noopener noreferrer">11550 Watsonville Rd, Gilroy, CA 95020</a>. 
+                            Driving is the easiest way to get to the venue, and there is plenty of parking onsite. With no traffic, Kirigin Cellars is
+                            approximately 35 minutes south of San Jose International Airport.
+                          </p>
+                      </div>
+                  </div>
+
+                  <div class="faq-item">
+                      <button class="faq-question">
+                          Will the wedding be indoors or outdoors?
+                          <span class="arrow">&#9660;</span>
+                      </button>
+                      <div class="faq-answer">
+                          <p>The ceremony will be outdoors, and the reception will be both indoors and outdoors.</p>
+                      </div>
+                  </div>
+          
+                  <div class="faq-item">
+                      <button class="faq-question">
+                          What should I wear?
+                          <span class="arrow">&#9660;</span>
+                      </button>
+                      <div class="faq-answer">
+                         <!-- <p>We are asking guests wear semi-formal attire. Here is a helpful <a href="https://www.brides.com/semi-formal-wedding-attire-4800687" target="_blank" rel="noopener noreferrer">guide</a> 
+                        if you aren't sure what that means, and don't stress about it too much. 
+                        There will be indoor space with AC, and the festivities will
+                            be in the evening. Nevertheless, July in the South Bay can be hot. Please keep this in mind, and don't feel obligated to wear 
+                            something you will overheat in.</p> -->
+                      </div>
+                  </div>
+
+                  <div class="faq-item">
+                      <button class="faq-question">
+                          What time should I get to the venue?
+                          <span class="arrow">&#9660;</span>
+                      </button>
+                      <div class="faq-answer">
+                          <p>Maybe around 3pm?</p>
+                      </div>
+                  </div>
+
+          
+                  <div class="faq-item">
+                      <button class="faq-question">
+                          When will the reception end?
+                          <span class="arrow">&#9660;</span>
+                      </button>
+                      <div class="faq-answer">
+                          <p>The reception will end at 9 pm.</p>
+                      </div>
+                  </div>
+
+                <div class="faq-item">
+                      <button class="faq-question">
+                          What if I have another question not answered on the website?
+                          <span class="arrow">&#9660;</span>
+                      </button>
+                      <div class="faq-answer">
+                          <p>Feel free to get in touch with Paul or Amanda!</p>
+                      </div>
+                  </div>
+            <!-- End of the Accordion -->
+
+            
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <footer>  
+      <!-- Footer region -->
+    </footer>
+    
+    <!-- Load additional JS scripts here -->
+    <script type="text/javascript" src="script.js"></script>
+    
+  </body>
+</html>
