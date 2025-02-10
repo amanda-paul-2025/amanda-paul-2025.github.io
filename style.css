@@ -93,7 +93,7 @@ blockquote p:last-child {
 /* Full size background image or color */
 html, #container, .inner { background-color:transparent;}
 html {
-  background:rgba(207, 194, 112, 1) center center no-repeat fixed; /* CURRENT COLOR: dark tan */
+  background:rgbargba(126, 171, 17, .9) center center no-repeat fixed; /* CURRENT COLOR: leaf green */
   background-size:cover;
 }
 body {
@@ -126,7 +126,7 @@ ul.main-menu li a:hover {
 }
 ul.main-menu li a.active {
   color:#533440;
-  border-bottom-color:#7eab11; /*Selected color; current: light green*/
+  border-bottom-color:(207, 194, 112, 1); /*Selected color; current: dark tan*/
 }
 
 /* Utility classes */
