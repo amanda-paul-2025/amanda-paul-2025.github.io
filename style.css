@@ -93,7 +93,7 @@ blockquote p:last-child {
 /* Full size background image or color */
 html, #container, .inner { background-color:transparent;}
 html {
-  background: rgba(126, 171, 17, .9) center center no-repeat fixed; /* CURRENT COLOR: leaf green */
+  background: rgba(255, 249, 222, .9) center center no-repeat fixed; /* CURRENT COLOR: light oat */
   background-size:cover;
 }
 body {
