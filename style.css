@@ -126,7 +126,7 @@ ul.main-menu li a:hover {
 }
 ul.main-menu li a.active {
   color:#533440;  /*Font color; current: dark purple*/
-  border-bottom-color: rgba(126, 171, 17, .9); /*Selected color; current:  leaf green*/
+  border-bottom-color: rgba(78,84,48,255); /*Selected color; current:  dark green*/
 }
 
 /* Utility classes */
