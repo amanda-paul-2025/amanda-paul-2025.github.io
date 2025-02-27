@@ -94,7 +94,7 @@ blockquote p:last-child {
 /* Full size background image or color */
 html, #container, .inner { background-color:transparent;}
 html {
-  background-image: paperbackground.jpg center center repeat fixed; /* CURRENT COLOR: light oat rgba(255, 249, 222, .9) */
+  background-image: url(paperbackground.jpg) center center repeat fixed; /* CURRENT COLOR: light oat rgba(255, 249, 222, .9) */
   background-size:cover;
 }
 body {
