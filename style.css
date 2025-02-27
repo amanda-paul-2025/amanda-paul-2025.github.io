@@ -20,7 +20,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#875468;
+  color:#875468; /* slightly lighter purple */
 }
 a:focus {
   outline: thin dotted;
@@ -101,7 +101,7 @@ body {
   margin:25px auto;
 }
 header, #content, footer { 
-  background: rgba(255, 255, 255, .9); /*White box for text*/
+  background: rgba(255, 255, 255, .85); /*White box for text*/
   padding:25px;
   color:#533440; /*Font color; current: dark purple*/
 }
@@ -126,7 +126,7 @@ ul.main-menu li a:hover {
 }
 ul.main-menu li a.active {
   color:#533440;  /*Font color; current: dark purple*/
-  border-bottom-color: rgba(78,84,48,255); /*Selected color; current:  dark green*/
+  border-bottom-color: rgba(177,184,97,255); /*Selected color; current:  dark green*/
 }
 
 /* Utility classes */
