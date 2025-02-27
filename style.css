@@ -197,13 +197,3 @@ ul.main-menu li a.active {
   color: #533440; 
 }
 
-/* For sober numbers */
-.class {
-font-variant-numeric: lining-nums;
--moz-font-feature-settings:"lnum" 1; 
--moz-font-feature-settings:"lnum=1"; 
--ms-font-feature-settings:"lnum" 1; 
--o-font-feature-settings:"lnum" 1; 
--webkit-font-feature-settings:"lnum" 1; 
-font-feature-settings:"lnum" 1;
-}
