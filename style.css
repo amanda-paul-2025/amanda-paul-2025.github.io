@@ -95,9 +95,9 @@ blockquote p:last-child {
 html, #container, .inner { background-color:transparent;}
 
 html {
-  background: url(yexturedBackground3.jpeg) center center repeat fixed;
+  background: url(texturedBackground3.jpeg) repeat;
   /* background-color: rgba(255, 249, 222, .9); /* CURRENT COLOR: light oat rgba(255, 249, 222, .9) center center repeat fixed */
-  /*background-size:cover;*/
+  background-size:cover;
 }
 
 body {
